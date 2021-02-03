@@ -36,6 +36,6 @@
     "bundle": "microbundle --strict --no-sourcemap",
     "watch": "npm run clean && microbundle watch --no-compress --strict --format cjs",
     "build": "npm run clean && npm run bundle",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build"
   }
 }
